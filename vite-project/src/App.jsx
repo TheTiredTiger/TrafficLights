@@ -12,7 +12,6 @@ function App() {
         () => setGlow("yellow-glow")}></div>
       <div className={`green ${glow === "green-glow" ? "green-glow" : ""}`} onClick={
         () => setGlow("green-glow")}></div>
-        <button onClick={() => setGlow("")}>Reset</button>
     </div>
   )
 }
