@@ -45,3 +45,14 @@
 .green-glow {
   box-shadow: 0 0 100px gold;
 }
+
+.buttons { 
+  text-align: center;
+  margin: 10px;
+}
+
+.off {
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 5px 10px 5px 10px;
+}
