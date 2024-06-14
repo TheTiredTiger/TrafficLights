@@ -7,43 +7,28 @@
   padding-top: 20px;
 }
 
-.red {
-  background-color: red;
+.red, .yellow, .green {
   height: 200px;
   width: 200px;
   border-radius: 50%;
   margin: auto;
-  margin-top: 10px;
-}
-
-.yellow {
-  background-color: yellow;
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  margin: auto;
-  margin-top: 30px;
-}
-
-.green {
-  background-color: green;
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  margin: auto;
-  margin-top: 30px;
+  margin-top: 20px;
+  background-color: black;
 }
 
 .red-glow {
+  background-color: red;
   box-shadow: 0 0 100px gold;
 }
 
 .yellow-glow {
+  background-color: yellow;
   box-shadow: 0 0 100px gold;
 }
 
 .green-glow {
   box-shadow: 0 0 100px gold;
+  background-color: green;
 }
 
 .buttons { 

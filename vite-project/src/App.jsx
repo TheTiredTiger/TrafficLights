@@ -11,6 +11,7 @@ function App() {
 
         <div className={`yellow ${glow === "yellow-glow" ? "yellow-glow" : ""}`} onClick={
           () => setGlow("yellow-glow")}></div>
+          
         <div className={`green ${glow === "green-glow" ? "green-glow" : ""}`} onClick={
           () => setGlow("green-glow")}></div>
       </div>
@@ -18,7 +19,6 @@ function App() {
         <button className="off" onClick={() => setGlow("")}>Turn off</button>
       </div>
     </>
-    
   )
 }
 
